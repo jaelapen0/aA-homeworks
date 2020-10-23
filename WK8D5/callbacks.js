@@ -1,0 +1,12 @@
+window.setTimeout(function (){
+    // alert('HAMMERTIME');
+
+}, 5000);
+
+
+function hammerTime(time) {
+    window.setTimeout(function () {
+        // alert('HAMMERTIME');
+        alert(`${time} is HAMMERTIME`)
+    }, 2000);
+}
